@@ -68,13 +68,14 @@ let meGustaBtn = document.getElementById("meGustaBtn");
       }
       if (contadorClics === 80) {
         alert("Cuanto tiempo podrias seguir haciendo esto?");
+      }  
       if (contadorClics === 90) {
         alert("no vas a parar?");
-      
+      } 
       if (contadorClics === 100) {
       alert("re al pedo estaba el tipal");
     }
-      }if (contadorClics === 120) {
+      if (contadorClics === 120) {
       alert("me cuesta menos a mi que a vos");
     }
        if (contadorClics === 140) {
@@ -116,5 +117,5 @@ let meGustaBtn = document.getElementById("meGustaBtn");
      if (contadorClics === 2000) {
       alert("Ganaste un naranja");
     }  
-      }});
+});
 });
