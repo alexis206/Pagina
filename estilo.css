@@ -124,17 +124,16 @@ body {
   }
 
 
-
   #meGustaBtn {
     border: 2px solid #3700ff;
     background-color: #219b31b4;
-    padding: 150px;
+    padding: 120px;
     position: fixed;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #2d302d;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -147,7 +146,7 @@ body {
 
   #contador {
     left: 50%;
-    top: 24%;
+    top: 44%;
     position: fixed;
     font-size: 24px; /* Cambia el tamaño de fuente a tu preferencia */
     margin-top: 20px; /* Cambia la distancia superior a tu preferencia */
