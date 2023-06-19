@@ -1,0 +1,113 @@
+.titulo {
+    padding: 5px;
+    font-weight: 10px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    text-shadow: 0px 0px 6px rgb(37, 34, 214);
+    text-align: center;
+   
+}
+
+.subtitulo {
+    padding: 9px;
+    font-weight: 10px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    text-shadow: 0px 0px 6px rgb(214, 34, 34);
+    text-align: center;
+
+}
+
+body {
+    background-color: rgba(16, 102, 105, 0.5);
+  }
+
+  #input1 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #input1:hover {
+    box-shadow: 0px 0px 4px rgb(0, 0, 255);
+  }
+
+ #input2 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  }
+  #input2:hover {
+    box-shadow: 0px 0px 4px rgb(0, 255, 42);
+  }
+
+#input3 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  #input3:hover {
+    box-shadow: 0px 0px 4px rgb(208, 255, 0);
+  }
+
+  #input4 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #2196f3;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 1s ease;
+    border: 2px solid #000000;
+
+  }
+
+
+  
+  #input4:hover {
+    background-color: #1565c0;
+  }
+  
+  #input4:focus {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 0 3px #42a5f5;
+  }
+
+
+
+  #meGustaBtn {
+    border: 2px solid #3700ff;
+    background-color: #219b31b4;
+    padding: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2d302d;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  
+  #meGustaBtn.clicked {
+    background-color: #ff0000;
+  }
+
+
+  #contador {
+    left: 50%;
+    top: 24%;
+    position: fixed;
+    font-size: 24px; /* Cambia el tamaño de fuente a tu preferencia */
+    margin-top: 20px; /* Cambia la distancia superior a tu preferencia */
+    /* Agrega otros estilos CSS según tus necesidades */
+  };
